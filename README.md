@@ -104,18 +104,18 @@ You can inspect the scan history using the provided utility script:
 python check_db.py
 
 
-📂 Project Structure
+📂 Project Structure  
 
-phishguard/ 
-├── main.py           # The API Controller (Entry Point)
-├── models.py         # SQLAlchemy Database Tables
-├── schemas.py        # Pydantic API Data Models
-├── database.py       # Database Connection Factory
-├── train_model.py    # Script to Train & Save ML Model
-├── check_db.py       # Utility to view SQLite logs
-├── phish_model.pkl   # The serialized ML Model (Generated)
-├── phishguard.db     # The SQLite Database (Generated)
-└── requirements.txt  # Project Dependencies
+phishguard/                                                                                                                                                                                        
+├── main.py           The API Controller (Entry Point)
+├── models.py         SQLAlchemy Database Tables
+├── schemas.py        Pydantic API Data Models
+├── database.py       Database Connection Factory
+├── train_model.py    Script to Train & Save ML Model
+├── check_db.py       Utility to view SQLite logs
+├── phish_model.pkl   The serialized ML Model (Generated)
+├── phishguard.db     The SQLite Database (Generated)
+└── requirements.txt  Project Dependencies
 
 
 🧠 ML Logic (Feature Extraction)
