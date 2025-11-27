@@ -106,7 +106,7 @@ python check_db.py
 
 📂 Project Structure
 
-phishguard/
+phishguard/ 
 ├── main.py           # The API Controller (Entry Point)
 ├── models.py         # SQLAlchemy Database Tables
 ├── schemas.py        # Pydantic API Data Models
